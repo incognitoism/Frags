@@ -1,0 +1,121 @@
+/* Reset default margins and paddings */
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif ;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #000000;
+    text-align: left;
+    font-family: SANS-SERIF;
+    COLOR: rgb(0, 0, 0);
+    TEXT-DECORATION-LINE: NONE;
+}
+
+a {
+    text-align: left;
+    font-family: SANS-SERIF;
+    COLOR: WHITE;
+    TEXT-DECORATION-LINE: NONE;
+}
+
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.9em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('tachy.jpg') no-repeat center center/cover;
+    color: #000000;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.products {
+    padding: 50px 0;
+    background: #f69f129d;
+}
+
+.products .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 30%;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
